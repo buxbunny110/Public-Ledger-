@@ -1,0 +1,18 @@
+1. What is the deep link
+
+- Deep link is anything but homepage, any link which accesses to some page is
+considered as deep link, but mainly in my opinion deep link is the complex URL
+which contains nested paths, and query strings, by which web page can determine 
+intention of the user, for example www.example.com/ads?showmore=true
+can be considered as deep link, because it does two actions, ie goes deep,
+first it goes to route by /ads path then by query string, it can show detailed information,
+or pop up some modal, or do some advanced thing, like a parameter for CLI, example would be
+git checkout -b, we know that git is just a top level command, checkout is subcommand, analogy of url it would be
+a path, not quite same but still, and -b is option/flag indicator of what additional action needs to be done
+so basically URL in essense really familiar to commands. Honestly when someone says a link, it's a 99% just a deep 
+link, otherwise everyone would just say, go to site with name of such and such. most of the time links being 
+sent accross net contains more info like paths and query strings, even segments, which can be used as 
+navigation to certain html elements.
+
+www.git.com/checkout?b=true can be analogy of real CLI command
+https://www.techtarget.com/whatis/definition/deep-link#:~:text=A%20deep%20link%20is%20a,can%20thus%20be%20considered%20deep.
