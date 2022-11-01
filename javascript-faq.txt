@@ -1,0 +1,32 @@
+1. How to access attributes of html elements
+
+- After you grab element by queries it, you can directly access them, 
+like this element.name, element.class and so on, but you can only 
+read values, if you want to change them, you have to use method 
+"setAttribute", also you can enlist all the attributes currently 
+set on the element by getter method attributes, which is giving 
+"NamedNodeMap" odd object.
+
+2. How to change element's styles on the fly
+
+- Well it's really easy, all you need to do is to access "style" 
+object on the element which present on almost every element, then you 
+browse your needed style prop and assign any value or just read it, 
+one thing however, you have to access props separated by dash in 
+camelCase style, for example prop like "background-color" which is 
+convenient in css, won't work in JS world, you have to access it by 
+"backgroundColor" prop.
+
+3. How to get query params from the URL in JS
+
+- URLSearchParams is the constructor which receives search string in format of 
+?search=value, from which it extracts parts of the query.
+https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams/URLSearchParams
+
+
+4. How to detect platfrom
+
+- It's being done by navigator object, there are many ways, but of course none of them
+are 100% precise 
+https://www.delftstack.com/howto/javascript/javascript-detect-operating-system/
+

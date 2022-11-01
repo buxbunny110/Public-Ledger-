@@ -1,0 +1,4 @@
+1. You can use ... spread operator on Form object in vanila JS, for 
+example expression like [...document.forms[0]] will give you all the 
+inputs, including buttons, from the very first form on the page if 
+exists.

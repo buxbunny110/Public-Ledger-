@@ -1,0 +1,9 @@
+1. [Libs] What is final-form and how it differs from react-final-form
+
+- final-form is the standalone library which is framework agnostic which means,
+it can interact with any framework, it's not dependent on any, in fact it uses its
+internal state mechanism, you can even use it in vanila JS. react-final-form is the
+wrapper made around it, which helps you to forget about the overall overhead, it gives
+you fancy hooks and components you can use to focus purely in react way, sort of things,
+also it's much easier, to integrate than more raw, final-form solution in react.
+
