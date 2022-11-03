@@ -1,0 +1,7 @@
+1. What are Rails engines
+
+- Rail engines are base engine drivers of every rails application, even the
+Application itself inherits from Engine class, mainly engines are used to isolate
+some kind of structured logic and action, it's more like a plugin, 
+you can mount the engine into your application and it in turn will extend your main
+Application functionality.

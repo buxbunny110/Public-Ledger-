@@ -16,3 +16,17 @@ navigation to certain html elements.
 
 www.git.com/checkout?b=true can be analogy of real CLI command
 https://www.techtarget.com/whatis/definition/deep-link#:~:text=A%20deep%20link%20is%20a,can%20thus%20be%20considered%20deep.
+
+2. What is lazy loading eager loading?
+
+- Lazy loading is the teqnique of loading certain resource only in certain condition,
+for example: there can be pictures in the blog, they being loaded only after you scroll down 
+and only when it's fitting in the viewport, it's lazy loading, because you don't load them 
+immediatelly but rather later, hence lazy loading, I used to say I can't go to groccery shop to
+buy some fruits or bread because I was lazy, I was saying: oh cmon I'll do it later, sounds familiar? 
+Eager loading is the pre loading of resources, for example you can have application, which needs to load some 
+big amount of data, if you know it may take decent time, you can avoid it by pre loading it at the beggining of application 
+startup, hence it will be stored in ram and will be easy to retrieve, in some scenarios eager loading is just the default loading 
+for example, there is an attribute 'loading' for iframe element, in this case eager true, just doesn't make sense 
+because even if you won't specify it, it will do it in eager way, unless you put 'lazy' instead. so in some cases 
+it's hard to tell wheter it does real eager loading or just usual loading.

@@ -1,0 +1,4 @@
+1. [CSP] What's considered as same-origin in policy?
+
+- if the url has the same host and protocol it's considered as same origin.
+https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy

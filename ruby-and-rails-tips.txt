@@ -1,0 +1,9 @@
+1. [Rails] By default everything in an Engine is namespaced, you will see controllers,
+models and every other stuff wrapped inside module, this is used to avoid clushing 
+and to logically separate entities of engine from a main application.
+
+2. [Rails] You can actually have attr_accessor macroses in the module,
+logically those macroses are just creating writer methods and readers so 
+for ruby it's just methods, but anyway, you can use that approach and then include
+it to class, you'll get those fields.
+https://www.google.com/search?q=defining+attr_acessor+in+a+module+railtie&rlz=1C5CHFA_enGE1028GE1028&oq=defining+attr_acessor+in+a+module+r&aqs=chrome.1.69i57j33i10i160l4.9740j0j7&sourceid=chrome&ie=UTF-8
