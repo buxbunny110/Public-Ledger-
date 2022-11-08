@@ -30,3 +30,14 @@ https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams/URLSearchParams
 are 100% precise 
 https://www.delftstack.com/howto/javascript/javascript-detect-operating-system/
 
+5. How to determine if Object is really an object and array is really an array
+
+- Well it's tricky in JS since, arrays, functions and objects are all of type object 
+if you try find out by typeof operator, but there's a way to do it, if you go to their 
+__proto__ prop, you can see they have prop called 'constructor', you should call name getter 
+method on it, and you'll find out exactly by which constructor it been created.
+Of course if you don't want all these hustle, 'underscore.js' have all of these helpers 
+predefined, so you don't need to do this manually.
+
+"({}).__proto__.constructor.name" this will give you string "Object"
+_.isObject({}) -> true it's an easier to use isn't?
