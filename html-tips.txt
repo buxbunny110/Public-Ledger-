@@ -1,0 +1,8 @@
+1. (data-*) attributes:  If you want to convey information to the element, you can use data-* attributes
+
+-- life case, you need to track particular elements, instead of writing class names 
+you should use data-* attributes because there's no point to attach class name to an element 
+unless you style it.
+
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
+

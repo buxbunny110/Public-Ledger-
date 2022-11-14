@@ -40,4 +40,4 @@ Of course if you don't want all these hustle, 'underscore.js' have all of these 
 predefined, so you don't need to do this manually.
 
 "({}).__proto__.constructor.name" this will give you string "Object"
-_.isObject({}) -> true it's an easier to use isn't?
+_.isObject({}) -> true it's an easier to use isn't,

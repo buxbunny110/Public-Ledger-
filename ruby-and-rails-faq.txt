@@ -5,3 +5,20 @@ Application itself inherits from Engine class, mainly engines are used to isolat
 some kind of structured logic and action, it's more like a plugin, 
 you can mount the engine into your application and it in turn will extend your main
 Application functionality.
+
+
+2. What's the difference between include and extend while using it to include module in class
+
+- include is used to treat methods as instance methods whereas extend treats included methods as 
+class methods
+
+3. What are ! signs used for in the end of method name, ie postfix
+
+- These may indicate two things, either method modifies receiver, for example 
+two cases String.upcase and String.upcase!, first one gives you copy second one
+changes the string at place, or the bang may indicate presence of possible exception,
+for example, you can have "update" method and "update!" method, first one 
+return boolean, second one will raise exception, therefore bang methods are considered as 
+'dangerous'. Also bang methods are really good at saving memmory.
+
+https://www.albertoalmagro.com/en/three-things-you-must-know-about-ruby-bang-methods/
